@@ -6,32 +6,16 @@
     <description>Recent content in Posts on Andra Satria Pratama</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Sep 2022 00:30:58 +0700</lastBuildDate><atom:link href="https://andrapratama.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 18:11:42 +0700</lastBuildDate><atom:link href="https://andrapratama.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://andrapratama.github.io/post/my-first-post/</link>
-      <pubDate>Thu, 15 Sep 2022 00:30:58 +0700</pubDate>
+      <title>Memahami Konsep Dasar Ini Sebagai Web Developer</title>
+      <link>https://andrapratama.github.io/post/memahami-konsep-dasar-ini-sebagai-web-developer/</link>
+      <pubDate>Thu, 15 Sep 2022 18:11:42 +0700</pubDate>
       
-      <guid>https://andrapratama.github.io/post/my-first-post/</guid>
-      <description>&lt;p&gt;Testing my first post&lt;/p&gt;
-&lt;p&gt;+++
-author = &amp;ldquo;lee.so&amp;rdquo;
-title = &amp;ldquo;Markdown Syntax Guide&amp;rdquo;
-date = &amp;ldquo;2019-03-11&amp;rdquo;
-description = &amp;ldquo;Sample article showcasing basic Markdown syntax and formatting for HTML elements.&amp;rdquo;
-tags = [
-&amp;ldquo;markdown&amp;rdquo;,
-&amp;ldquo;css&amp;rdquo;,
-&amp;ldquo;html&amp;rdquo;,
-]
-categories = [
-&amp;ldquo;themes&amp;rdquo;,
-&amp;ldquo;syntax&amp;rdquo;,
-]
-series = [&amp;ldquo;Themes Guide&amp;rdquo;]
-aliases = [&amp;ldquo;migrate-from-jekyl&amp;rdquo;]
-+++&lt;/p&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://andrapratama.github.io/post/memahami-konsep-dasar-ini-sebagai-web-developer/</guid>
+      <description>Dalam sebuah website, terdapat 2 hal yang harus diketahui yaitu Server Side dan Client Side.
+Kemudian, apa yang mereka lakukan???
+Server Side Di sisi ini mereka melakaukan pekerjaan yang tidak akan terlihat pada pengguna </description>
     </item>
     
   </channel>
