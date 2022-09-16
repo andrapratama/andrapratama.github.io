@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>index on Andra Pratama</title>
+    <link>https://andrapratama.github.io/tags/index/</link>
+    <description>Recent content in index on Andra Pratama</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright><atom:link href="https://andrapratama.github.io/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://andrapratama.github.io/blog/</link>
+      <pubDate>Thu, 15 Sep 2022 18:11:42 +0700</pubDate>
+      
+      <guid>https://andrapratama.github.io/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math on Andra Pratama</title>
+    <link>https://andrapratama.github.io/tags/math/</link>
+    <description>Recent content in math on Andra Pratama</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://andrapratama.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://andrapratama.github.io/blog/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrapratama.github.io/blog/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
