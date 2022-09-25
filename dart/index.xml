@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bahasa Pemrograman Dart on Andra Satria Pratama</title>
+    <link>https://andrasatriapratama.com/dart/</link>
+    <description>Recent content in Bahasa Pemrograman Dart on Andra Satria Pratama</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 20 Sep 2022 11:17:16 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/dart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paradigma OOP Pada Dart</title>
+      <link>https://andrasatriapratama.com/dart/paradigma-oop-pada-dart/</link>
+      <pubDate>Sun, 25 Sep 2022 00:12:22 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/dart/paradigma-oop-pada-dart/</guid>
+      <description>Encapsulation Encapsulation (Enkapsulasi) merupakan cara untuk mengatur Property (variabel) dan Method (fungsi) dengan menyembunyikan alur kerja atau membatasi aksesnya di dalam class. Sederhanya, kita bisa menentukan Property atau Method mana yang bisa diakses langsung atau tidak. Di dalam bahasa pemrograman Dart ada 2 jenisnya yaitu, private dan public. private berati hanya bisa diakses di dalam classnya, sedangkan public bisa diakses di luar classnya.
+Abstraction Abstraction (Abstraksi) erupakan cara untuk membuat class yang sifatnya private.</description>
+    </item>
+    
+  </channel>
+</rss>
