@@ -76,5 +76,15 @@ Apa yang mereka lakukan? Saat pengguna mengetik alamat web (misal: www.example.c
       <description>This my blog website for sharing and noting my programming career life</description>
     </item>
     
+    <item>
+      <title>Class</title>
+      <link>https://andrasatriapratama.com/dart/class/</link>
+      <pubDate>Thu, 01 Sep 2022 00:11:22 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/dart/class/</guid>
+      <description>Class merupakan blueprint atau cetak biru untuk membuat suatu objek. Misalkan kita mau membuat sebuah Application Bar atau Appbar pada sebuah aplikasi mobile. Kita bisa membuatnya seperti ini class AppBar { String nama; int tinggi; String warna; AppBar(this.nama, this.tinggi, this.warna); void create() { print( &amp;#39;Aplikasi $nama ini memiliki Appbar ini tingginya $tinggi dan warnanya $warna&amp;#39;); } }
+kemudian kita coba gunakan class tersebut dan jalankan void main(List&amp;lt;String&amp;gt; arguments) { var appBar = AppBar(&amp;#39;Instagram&amp;#39;, 20, &amp;#39;green&amp;#39;); appBar.</description>
+    </item>
+    
   </channel>
 </rss>
