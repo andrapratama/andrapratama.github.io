@@ -9,7 +9,7 @@
     <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
     <lastBuildDate>Sun, 25 Sep 2022 00:12:22 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/tags/dart/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1. Paradigma OOP Pada Dart</title>
+      <title>Paradigma OOP Pada Dart</title>
       <link>https://andrasatriapratama.com/dart/paradigma-oop-pada-dart/</link>
       <pubDate>Sun, 25 Sep 2022 00:12:22 +0700</pubDate>
       
@@ -19,7 +19,7 @@ Abstraction Abstraction (Abstraksi) erupakan cara untuk membuat class yang sifat
     </item>
     
     <item>
-      <title>2. Class</title>
+      <title>Class</title>
       <link>https://andrasatriapratama.com/dart/class/</link>
       <pubDate>Thu, 01 Sep 2022 00:11:22 +0700</pubDate>
       
@@ -29,7 +29,7 @@ kemudian kita coba gunakan class tersebut dan jalankan void main(List&amp;lt;Str
     </item>
     
     <item>
-      <title>3. Property</title>
+      <title>Property</title>
       <link>https://andrasatriapratama.com/dart/property/</link>
       <pubDate>Thu, 01 Sep 2022 00:10:22 +0700</pubDate>
       
@@ -38,7 +38,7 @@ kemudian kita coba gunakan class tersebut dan jalankan void main(List&amp;lt;Str
     </item>
     
     <item>
-      <title>4. Method</title>
+      <title>Method</title>
       <link>https://andrasatriapratama.com/dart/method/</link>
       <pubDate>Thu, 01 Sep 2022 00:09:22 +0700</pubDate>
       
@@ -47,7 +47,7 @@ kemudian kita coba gunakan class tersebut dan jalankan void main(List&amp;lt;Str
     </item>
     
     <item>
-      <title>5. Constructor</title>
+      <title>Constructor</title>
       <link>https://andrasatriapratama.com/dart/constructor/</link>
       <pubDate>Thu, 01 Sep 2022 00:08:22 +0700</pubDate>
       
@@ -56,12 +56,21 @@ kemudian kita coba gunakan class tersebut dan jalankan void main(List&amp;lt;Str
     </item>
     
     <item>
-      <title>6. Cascade Notation</title>
+      <title>Cascade Notation</title>
       <link>https://andrasatriapratama.com/dart/cascade-notation/</link>
       <pubDate>Thu, 01 Sep 2022 00:07:22 +0700</pubDate>
       
       <guid>https://andrasatriapratama.com/dart/cascade-notation/</guid>
       <description>Dengan Cascade Notation (cascade operator), kita bisa melakukan operasi pada objek secara berurutan. Kita bisa akses dan jalankan property dan methodnya bersamaan saat membuat atau menginstansi objeknya. Contohnya sebagai berikut void main(List&amp;lt;String&amp;gt; arguments) { // contoh penggunaan cascade notation var appBar = AppBar(&amp;#39;&amp;#39;, 0, &amp;#39;&amp;#39;) ..nama = &amp;#39;Instagram&amp;#39; ..tinggi = 20 ..warna = &amp;#39;putih&amp;#39; ..create(); } class AppBar { String nama; int tinggi; String warna; AppBar(this.nama, this.tinggi, this.warna); void create() { print( &amp;#39;Aplikasi $nama ini memiliki Appbar ini tingginya $tinggi dan warnanya $warna&amp;#39;); } } hasilnya</description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>https://andrasatriapratama.com/dart/inheritance/</link>
+      <pubDate>Thu, 01 Sep 2022 00:06:22 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/dart/inheritance/</guid>
+      <description>Inheritance adalah cara dari suatu class agar bisa mewarisi sifat dari class lain. Class yang mewarisi sifat seperti property dan methodnya adalah SuperClass atau Parent Class, sedangkan Class yang diwarisi adalah Subclass atau Child Class. Contohnya seperti dibawah ini menginstansi objeknya. Contohnya sebagai berikut void main(List&amp;lt;String&amp;gt; arguments) { var appBarHome = AppBarHome(&amp;#39;Instagram&amp;#39;, 20, &amp;#39;putih&amp;#39;, &amp;#39;klik profil&amp;#39;); // memanggil fungsi dari class AppBar appBarHome.create(); // memanggil fungsi dari class AppBarHome itu sendiri appBarHome.</description>
     </item>
     
   </channel>
