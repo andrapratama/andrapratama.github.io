@@ -9,7 +9,7 @@
     <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
     <lastBuildDate>Tue, 20 Sep 2022 11:17:16 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/dart/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Paradigma OOP Pada Dart</title>
+      <title>1. Paradigma OOP Pada Dart</title>
       <link>https://andrasatriapratama.com/dart/paradigma-oop-pada-dart/</link>
       <pubDate>Sun, 25 Sep 2022 00:12:22 +0700</pubDate>
       
@@ -19,7 +19,7 @@ Abstraction Abstraction (Abstraksi) erupakan cara untuk membuat class yang sifat
     </item>
     
     <item>
-      <title>Class</title>
+      <title>2. Class</title>
       <link>https://andrasatriapratama.com/dart/class/</link>
       <pubDate>Thu, 01 Sep 2022 00:11:22 +0700</pubDate>
       
@@ -29,7 +29,7 @@ kemudian kita coba gunakan class tersebut dan jalankan void main(List&amp;lt;Str
     </item>
     
     <item>
-      <title>Property</title>
+      <title>3. Property</title>
       <link>https://andrasatriapratama.com/dart/property/</link>
       <pubDate>Thu, 01 Sep 2022 00:10:22 +0700</pubDate>
       
@@ -38,7 +38,7 @@ kemudian kita coba gunakan class tersebut dan jalankan void main(List&amp;lt;Str
     </item>
     
     <item>
-      <title>Method</title>
+      <title>4. Method</title>
       <link>https://andrasatriapratama.com/dart/method/</link>
       <pubDate>Thu, 01 Sep 2022 00:09:22 +0700</pubDate>
       
@@ -47,12 +47,21 @@ kemudian kita coba gunakan class tersebut dan jalankan void main(List&amp;lt;Str
     </item>
     
     <item>
-      <title>Constructor</title>
+      <title>5. Constructor</title>
       <link>https://andrasatriapratama.com/dart/constructor/</link>
       <pubDate>Thu, 01 Sep 2022 00:08:22 +0700</pubDate>
       
       <guid>https://andrasatriapratama.com/dart/constructor/</guid>
       <description>Constructor merupakan fungsi yang pertama kali dipanggil ketika sebuah objek dibuat. Dalam Class Appbar yang sudah dibuat sebelumnya kita punya Constructor yang namanya sama persis dengan nama Classnya. class AppBar { // property String nama; int tinggi; String warna; // constructor AppBar(this.nama, this.tinggi, this.warna); // method void create() { print( &amp;#39;Aplikasi $nama ini memiliki Appbar ini tingginya $tinggi dan warnanya $warna&amp;#39;); } }</description>
+    </item>
+    
+    <item>
+      <title>6. Cascade Notation</title>
+      <link>https://andrasatriapratama.com/dart/cascade-notation/</link>
+      <pubDate>Thu, 01 Sep 2022 00:07:22 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/dart/cascade-notation/</guid>
+      <description>Dengan Cascade Notation (cascade operator), kita bisa melakukan operasi pada objek secara berurutan. Kita bisa akses dan jalankan property dan methodnya bersamaan saat membuat atau menginstansi objeknya. Contohnya sebagai berikut void main(List&amp;lt;String&amp;gt; arguments) { // contoh penggunaan cascade notation var appBar = AppBar(&amp;#39;&amp;#39;, 0, &amp;#39;&amp;#39;) ..nama = &amp;#39;Instagram&amp;#39; ..tinggi = 20 ..warna = &amp;#39;putih&amp;#39; ..create(); } class AppBar { String nama; int tinggi; String warna; AppBar(this.nama, this.tinggi, this.warna); void create() { print( &amp;#39;Aplikasi $nama ini memiliki Appbar ini tingginya $tinggi dan warnanya $warna&amp;#39;); } } hasilnya</description>
     </item>
     
   </channel>

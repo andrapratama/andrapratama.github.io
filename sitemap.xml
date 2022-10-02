@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://andrasatriapratama.com/dart/paradigma-oop-pada-dart/</loc>
+    <lastmod>2022-09-25T00:12:22+07:00</lastmod>
+  </url><url>
     <loc>https://andrasatriapratama.com/</loc>
     <lastmod>2022-09-25T00:12:22+07:00</lastmod>
   </url><url>
@@ -9,9 +12,6 @@
     <lastmod>2022-09-25T00:12:22+07:00</lastmod>
   </url><url>
     <loc>https://andrasatriapratama.com/tags/oop/</loc>
-    <lastmod>2022-09-25T00:12:22+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/dart/paradigma-oop-pada-dart/</loc>
     <lastmod>2022-09-25T00:12:22+07:00</lastmod>
   </url><url>
     <loc>https://andrasatriapratama.com/tags/</loc>
@@ -79,6 +79,9 @@
   </url><url>
     <loc>https://andrasatriapratama.com/dart/constructor/</loc>
     <lastmod>2022-09-01T00:08:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/dart/cascade-notation/</loc>
+    <lastmod>2022-09-01T00:07:22+07:00</lastmod>
   </url><url>
     <loc>https://andrasatriapratama.com/categories/</loc>
   </url><url>
