@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Flutter on Andra Satria Pratama</title>
-    <link>https://andrasatriapratama.com/flutter/</link>
-    <description>Recent content in Flutter on Andra Satria Pratama</description>
+    <title>flutter on Andra Satria Pratama</title>
+    <link>https://andrasatriapratama.com/tags/flutter/</link>
+    <description>Recent content in flutter on Andra Satria Pratama</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 24 Sep 2022 11:17:16 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2022 00:05:23 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Konsep Dasar Layout</title>
       <link>https://andrasatriapratama.com/flutter/konsep-dasar-layout/</link>

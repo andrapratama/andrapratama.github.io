@@ -131,5 +131,74 @@ kemudian kita coba gunakan class tersebut dan jalankan void main(List&amp;lt;Str
       <description>Inheritance adalah cara dari suatu class agar bisa mewarisi sifat dari class lain. Class yang mewarisi sifat seperti property dan methodnya adalah SuperClass atau Parent Class, sedangkan Class yang diwarisi adalah Subclass atau Child Class. Contohnya seperti dibawah ini menginstansi objeknya. Contohnya sebagai berikut void main(List&amp;lt;String&amp;gt; arguments) { var appBarHome = AppBarHome(&amp;#39;Instagram&amp;#39;, 20, &amp;#39;putih&amp;#39;, &amp;#39;klik profil&amp;#39;); // memanggil fungsi dari class AppBar appBarHome.create(); // memanggil fungsi dari class AppBarHome itu sendiri appBarHome.</description>
     </item>
     
+    <item>
+      <title>Konsep Dasar Layout</title>
+      <link>https://andrasatriapratama.com/flutter/konsep-dasar-layout/</link>
+      <pubDate>Thu, 01 Sep 2022 00:05:23 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/flutter/konsep-dasar-layout/</guid>
+      <description>UI pada Flutter dibangun dalam kode, bukan file XML atau sejenisnya. UI-nya disusun sebagai blok bangunan dasar yang disebut Widget (ada widget Text, Gambar, Baris, Kolom, Container dan sebagainya). Widget adalah objek yang tidak dapat diubah yang menjelaskan bagian tertentu dari UI. Kita bisa enggabungkan widget yang ada untuk membuat widget yang lebih canggih.
+Row dan Column Row dan Column adalah kelas yang memuat dan menata widget. Widget di dalam Row atau Column disebut child, dan Row dan Column disebut sebagai parent.</description>
+    </item>
+    
+    <item>
+      <title>Abstract Class</title>
+      <link>https://andrasatriapratama.com/dart/abstract-class/</link>
+      <pubDate>Thu, 01 Sep 2022 00:05:22 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/dart/abstract-class/</guid>
+      <description>Abstraction (Abstraksi) erupakan cara untuk membuat class yang sifatnya private. class yang bersifat abstrak akan menjadi parent. class tersebut hanya bisa diakses oleh class child yang nantinya akan direalisasikan dalam bentuk objek. Contohnya:
+abstract class Widget { late String nama; } </description>
+    </item>
+    
+    <item>
+      <title>Widget</title>
+      <link>https://andrasatriapratama.com/flutter/widget/</link>
+      <pubDate>Thu, 01 Sep 2022 00:05:22 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/flutter/widget/</guid>
+      <description>Widget dibuat menggunakan framework modern yang terinspirasi dari React. Ide utamanya adalah kita membuat User Interface (Antarmuka) dengan menggunakan Widget tersebut. Widget mendeskripsikan seperti apa tampilan dengan konfigurasi dan statusnya. Ketika konfigurasi dan status dari sebuah status Widget berubah, ia akan dibuat ulang sesuai deskripsinya konfigurasi dan status yang baru.</description>
+    </item>
+    
+    <item>
+      <title>Implicit Interface</title>
+      <link>https://andrasatriapratama.com/dart/implicit-interface/</link>
+      <pubDate>Thu, 01 Sep 2022 00:04:22 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/dart/implicit-interface/</guid>
+      <description>Setiap class di dalam bahasa pemrograman Dart bisa bertindak sebagai Interface. Maka dari itu disebutlah sebagai Implicit Interface. Contoh penerapannya
+void main(List&amp;lt;String&amp;gt; arguments) { var appBarHome = AppBarHome(&amp;#39;Instagram&amp;#39;, 20, &amp;#39;putih&amp;#39;, &amp;#39;klik profil&amp;#39;); appBarHome.create(); appBarHome.build(); } // class yang fungsinya dibiarkan tetap kosong karena akan diimplementasi di class yang mengimplementasikannya class Widget { void build() {} } // class AppBar yang memiliki karakteristik umum class AppBar { final String _nama; final int _tinggi; final String _warna; AppBar(this.</description>
+    </item>
+    
+    <item>
+      <title>Enumerate Types</title>
+      <link>https://andrasatriapratama.com/dart/enumerate-types/</link>
+      <pubDate>Thu, 01 Sep 2022 00:03:22 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/dart/enumerate-types/</guid>
+      <description>Di bahasa pemrograman dart kita bisa menyimpan konstan di satu tempat dan ditangani bersamaan yang disebut Enumerated Type. Sering disebut juga Enumerations atau Enums yang mewakili kumpulan konstan sehinga kode lebih jelas dan mudah dibaca.
+void main(List&amp;lt;String&amp;gt; arguments) { // cara penggunaannya // memanggil semua nilai print(Widget.values); // memanggil nilai text print(Widget.text); // hanya memanggil nama text print(Widget.text.name); // memanggil nilai index print(Widget.button.index); // mengimplementasikannya di switch statements var menu = Menu.</description>
+    </item>
+    
+    <item>
+      <title>Mixins</title>
+      <link>https://andrasatriapratama.com/dart/mixins/</link>
+      <pubDate>Thu, 01 Sep 2022 00:02:22 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/dart/mixins/</guid>
+      <description>Karena bahasa pemrograman Dart tidak mendukung multiple inheritance, Mixin memungkinkan untuk kita bisa mengimpelentasikan beberapa class ke dalam suatu kelas turunan.
+void main(List&amp;lt;String&amp;gt; arguments) { var appBarHome = AppBarHome(); appBarHome.create(); } abstract class Widget { void build(); } mixin Text implements Widget { @override void build() { print(&amp;#39;Tampilkan Text&amp;#39;); } } mixin Button implements Widget { @override void build() { print(&amp;#39;Tampilkan Tombol&amp;#39;); } } class AppBar implements Widget { @override void build() { print(&amp;#39;Tampilkan AppBar&amp;#39;); } } class AppBarHome extends Widget with Text, Button, AppBar { void create() { build(); } } hasilnya</description>
+    </item>
+    
+    <item>
+      <title>Extension Method</title>
+      <link>https://andrasatriapratama.com/dart/extension-method/</link>
+      <pubDate>Thu, 01 Sep 2022 00:01:22 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/dart/extension-method/</guid>
+      <description>Extension Method bertujuan agar kita bisa membuat fungsionalitas tambahan dari library yang sudah ada. Bisa dari library bawaan Dart itu sendiri atau pun library orang lain.
+void main() { var angkaAcak = [120, 500, 90, 189]; print(angkaAcak); // fungsi sortAsc var angkaBerurut = angkaAcak.sortAsc(); print(angkaBerurut); } // extension tambahan extension Sorting on List&amp;lt;int&amp;gt; { List&amp;lt;int&amp;gt; sortAsc() { var list = this; var length = this.length; for (int i = 0; i &amp;lt; length - 1; i++) { int min = i; for (int j = i + 1; j &amp;lt; length; j++) { if (list[j] &amp;lt; list[min]) { min = j; } } int tmp = list[min]; list[min] = list[i]; list[i] = tmp; } return list; } } </description>
+    </item>
+    
   </channel>
 </rss>

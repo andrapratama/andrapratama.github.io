@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="not-ready text-sm lg:text-base" style="--bg: #f2f4f5"
+  lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="google-site-verification" content="G3DFbk616xHdrVE7tDowqlB3on2LhsAao1k3jx3ujNM" />
+  
+  <title>Extension Method - Andra Satria Pratama</title>
+
+  
+  <meta name="theme-color" />
+  
+  <meta name="description" content="Extension Method bertujuan agar kita bisa membuat fungsionalitas tambahan dari library yang sudah ada. Bisa dari library bawaan Dart itu sendiri atau pun library orang lain.
+void main() { var angkaAcak = [120, 500, 90, 189]; print(angkaAcak); // fungsi sortAsc var angkaBerurut = angkaAcak.sortAsc(); print(angkaBerurut); } // extension tambahan extension Sorting on List&lt;int&gt; { List&lt;int&gt; sortAsc() { var list = this; var length = this.length; for (int i = 0; i &lt; length - 1; i&#43;&#43;) { int min = i; for (int j = i &#43; 1; j &lt; length; j&#43;&#43;) { if (list[j] &lt; list[min]) { min = j; } } int tmp = list[min]; list[min] = list[i]; list[i] = tmp; } return list; } } " />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://andrasatriapratama.com/main.min.css" />
+
+  
+  <script defer src="https://andrasatriapratama.com/highlight.min.js" onload="hljs.initHighlightingOnLoad();"></script>
+  
+
+  
+  
+  
+  <link rel="preload" as="image" href="https://andrasatriapratama.com/theme.png" />
+
+  
+  
+  
+  
+
+  
+  <link rel="preload" as="image" href="https://andrasatriapratama.com/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://andrasatriapratama.com/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://andrasatriapratama.com/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.102.3" />
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Extension Method" />
+<meta property="og:description" content="Extension Method bertujuan agar kita bisa membuat fungsionalitas tambahan dari library yang sudah ada. Bisa dari library bawaan Dart itu sendiri atau pun library orang lain.
+void main() { var angkaAcak = [120, 500, 90, 189]; print(angkaAcak); // fungsi sortAsc var angkaBerurut = angkaAcak.sortAsc(); print(angkaBerurut); } // extension tambahan extension Sorting on List&lt;int&gt; { List&lt;int&gt; sortAsc() { var list = this; var length = this.length; for (int i = 0; i &lt; length - 1; i&#43;&#43;) { int min = i; for (int j = i &#43; 1; j &lt; length; j&#43;&#43;) { if (list[j] &lt; list[min]) { min = j; } } int tmp = list[min]; list[min] = list[i]; list[i] = tmp; } return list; } } " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://andrasatriapratama.com/dart/extension-method/" /><meta property="article:section" content="dart" />
+<meta property="article:published_time" content="2022-09-01T00:01:22+07:00" />
+<meta property="article:modified_time" content="2022-09-01T00:01:22+07:00" />
+
+
+  
+  <meta itemprop="name" content="Extension Method">
+<meta itemprop="description" content="Extension Method bertujuan agar kita bisa membuat fungsionalitas tambahan dari library yang sudah ada. Bisa dari library bawaan Dart itu sendiri atau pun library orang lain.
+void main() { var angkaAcak = [120, 500, 90, 189]; print(angkaAcak); // fungsi sortAsc var angkaBerurut = angkaAcak.sortAsc(); print(angkaBerurut); } // extension tambahan extension Sorting on List&lt;int&gt; { List&lt;int&gt; sortAsc() { var list = this; var length = this.length; for (int i = 0; i &lt; length - 1; i&#43;&#43;) { int min = i; for (int j = i &#43; 1; j &lt; length; j&#43;&#43;) { if (list[j] &lt; list[min]) { min = j; } } int tmp = list[min]; list[min] = list[i]; list[i] = tmp; } return list; } } "><meta itemprop="datePublished" content="2022-09-01T00:01:22+07:00" />
+<meta itemprop="dateModified" content="2022-09-01T00:01:22+07:00" />
+<meta itemprop="wordCount" content="118">
+<meta itemprop="keywords" content="dart,oop," />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Extension Method"/>
+<meta name="twitter:description" content="Extension Method bertujuan agar kita bisa membuat fungsionalitas tambahan dari library yang sudah ada. Bisa dari library bawaan Dart itu sendiri atau pun library orang lain.
+void main() { var angkaAcak = [120, 500, 90, 189]; print(angkaAcak); // fungsi sortAsc var angkaBerurut = angkaAcak.sortAsc(); print(angkaBerurut); } // extension tambahan extension Sorting on List&lt;int&gt; { List&lt;int&gt; sortAsc() { var list = this; var length = this.length; for (int i = 0; i &lt; length - 1; i&#43;&#43;) { int min = i; for (int j = i &#43; 1; j &lt; length; j&#43;&#43;) { if (list[j] &lt; list[min]) { min = j; } } int tmp = list[min]; list[min] = list[i]; list[i] = tmp; } return list; } } "/>
+
+  
+  
+</head>
+
+<body class="text-black duration-200 ease-out dark:text-white">
+  <header class="header-bg">
+  <div class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
+    <div class="relative z-50 mr-auto flex items-center">
+      <a class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold" href="https://andrasatriapratama.com/">Andra Satria Pratama</a>
+      
+    </div>
+    
+    <a
+      class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"></a>
+
+    
+    <script>
+      
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove('not-ready');
+      }, 10);
+
+      
+      const btnMenu = document.querySelector('.btn-menu');
+      btnMenu.addEventListener('click', () => {
+        htmlClass.toggle('open');
+      });
+
+      
+      const metaTheme = document.querySelector('meta[name="theme-color"]');
+      const lightBg = `"#f2f4f5"`.replace(/"/g, '');
+      const setDark = (isDark) => {
+        metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+        htmlClass[isDark ? 'add' : 'remove']('dark');
+        localStorage.setItem('dark', isDark);
+      };
+
+      
+      const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+
+      
+      darkScheme.addEventListener('change', (event) => {
+        setDark(event.matches);
+      });
+
+      
+      const btnDark = document.querySelector('.btn-dark');
+      btnDark.addEventListener('click', () => {
+        setDark(localStorage.getItem('dark') !== 'true');
+      });
+    </script>
+
+    <div
+      class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none">
+      
+      
+      
+      <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+        
+        <a class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+          href="/about/">About</a>
+        
+        <a class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+          href="/blog/">Blog</a>
+        
+        <a class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+          href="/dart/">Dart</a>
+        
+        <a class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+          href="/flutter/">Flutter</a>
+        
+      </nav>
+      
+      
+
+      
+      <nav class="mt-12 flex justify-center space-x-10 dark:invert lg:mt-0 lg:ml-12 lg:items-center lg:space-x-6">
+        
+        
+        <a class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+          style="--url: url(./github.svg)"
+          href=" https://github.com/andrapratama "
+          target="_blank"></a>
+        
+        
+      </nav>
+      
+      
+    </div>
+  </div>
+</header>
+
+  <main
+    class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert">
+    
+<article>
+
+  <header class="post-header">
+    <h1 class="post-header__title">Extension Method</h1>
+  </header>
+
+  <div class="post-content content-blog">
+    <p>Extension Method bertujuan agar kita bisa membuat fungsionalitas tambahan dari library yang sudah ada. Bisa dari library bawaan Dart itu sendiri atau pun library orang lain.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> main() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> angkaAcak <span style="color:#f92672">=</span> [<span style="color:#ae81ff">120</span>, <span style="color:#ae81ff">500</span>, <span style="color:#ae81ff">90</span>, <span style="color:#ae81ff">189</span>];
+</span></span><span style="display:flex;"><span>  print(angkaAcak);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// fungsi sortAsc
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">var</span> angkaBerurut <span style="color:#f92672">=</span> angkaAcak.sortAsc();
+</span></span><span style="display:flex;"><span>  print(angkaBerurut);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// extension tambahan
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>extension Sorting on List<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> {
+</span></span><span style="display:flex;"><span>  List<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> sortAsc() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> list <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> length <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.length;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> length <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">int</span> min <span style="color:#f92672">=</span> i;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;</span> length; j<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (list[j] <span style="color:#f92672">&lt;</span> list[min]) {
+</span></span><span style="display:flex;"><span>          min <span style="color:#f92672">=</span> j;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">int</span> tmp <span style="color:#f92672">=</span> list[min];
+</span></span><span style="display:flex;"><span>      list[min] <span style="color:#f92672">=</span> list[i];
+</span></span><span style="display:flex;"><span>      list[i] <span style="color:#f92672">=</span> tmp;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> list;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+
+
+    <p class="post-meta">
+      
+      
+      <span class="icon icon--tags">
+        <svg viewBox="0 0 544 512">
+          <path
+            d="M496,32H384c-26.4,0-63.273,15.273-81.941,33.941L113.941,254.059c-18.667,18.667-18.667,49.214,0,67.882l140.118,140.116 c18.667,18.668,49.214,18.668,67.882,0l188.116-188.116C528.727,255.273,544,218.4,544,192V80C544,53.6,522.4,32,496,32z M432,192 c-26.51,0-48-21.49-48-48s21.49-48,48-48s48,21.49,48,48S458.51,192,432,192z M43.313,299.312l171.189,171.189 c-18.132,9.58-41.231,6.77-56.443-8.444L17.941,321.941c-18.667-18.668-18.667-49.215,0-67.882L206.059,65.941 C224.727,47.273,261.6,32,288,32L43.313,276.686C37.091,282.909,37.091,293.09,43.313,299.312z" />
+        </svg>
+      </span>
+      
+      
+      
+      <a class="post-content__tag small" href='/tags/dart'>dart</a>
+      
+      , 
+      <a class="post-content__tag small" href='/tags/oop'>oop</a>
+      
+    </p>
+
+  </div>
+
+</article>
+
+
+  </main>
+
+  <footer class="header-bg">
+  <div class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60">
+    <div class="mr-auto">
+      &copy; 2022
+      <a class="link" href="https://andrasatriapratama.com/">Andra Satria Pratama</a>
+    </div>
+    <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank">Powered by Hugo️️</a>️
+    <a class="link" href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">▷ Paper 6</a>
+  </div>
+</footer>
+</body>
+
+</html>
