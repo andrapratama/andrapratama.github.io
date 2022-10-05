@@ -111,15 +111,15 @@ void main() { var angkaAcak = [120, 500, 90, 189]; print(angkaAcak); // fungsi s
 void main() { var angkaAcak = [120, 500, 90, 189]; print(angkaAcak); // fungsi sortAsc var angkaBerurut = angkaAcak.sortAsc(); print(angkaBerurut); } // extension tambahan extension Sorting on List&lt;int&gt; { List&lt;int&gt; sortAsc() { var list = this; var length = this.length; for (int i = 0; i &lt; length - 1; i&#43;&#43;) { int min = i; for (int j = i &#43; 1; j &lt; length; j&#43;&#43;) { if (list[j] &lt; list[min]) { min = j; } } int tmp = list[min]; list[min] = list[i]; list[i] = tmp; } return list; } } " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://andrasatriapratama.com/dart/extension-method/" /><meta property="article:section" content="dart" />
-<meta property="article:published_time" content="2022-09-01T00:01:22+07:00" />
-<meta property="article:modified_time" content="2022-09-01T00:01:22+07:00" />
+<meta property="article:published_time" content="2022-01-01T00:01:22+07:00" />
+<meta property="article:modified_time" content="2022-01-01T00:01:22+07:00" />
 
 
   
   <meta itemprop="name" content="Extension Method">
 <meta itemprop="description" content="Extension Method bertujuan agar kita bisa membuat fungsionalitas tambahan dari library yang sudah ada. Bisa dari library bawaan Dart itu sendiri atau pun library orang lain.
-void main() { var angkaAcak = [120, 500, 90, 189]; print(angkaAcak); // fungsi sortAsc var angkaBerurut = angkaAcak.sortAsc(); print(angkaBerurut); } // extension tambahan extension Sorting on List&lt;int&gt; { List&lt;int&gt; sortAsc() { var list = this; var length = this.length; for (int i = 0; i &lt; length - 1; i&#43;&#43;) { int min = i; for (int j = i &#43; 1; j &lt; length; j&#43;&#43;) { if (list[j] &lt; list[min]) { min = j; } } int tmp = list[min]; list[min] = list[i]; list[i] = tmp; } return list; } } "><meta itemprop="datePublished" content="2022-09-01T00:01:22+07:00" />
-<meta itemprop="dateModified" content="2022-09-01T00:01:22+07:00" />
+void main() { var angkaAcak = [120, 500, 90, 189]; print(angkaAcak); // fungsi sortAsc var angkaBerurut = angkaAcak.sortAsc(); print(angkaBerurut); } // extension tambahan extension Sorting on List&lt;int&gt; { List&lt;int&gt; sortAsc() { var list = this; var length = this.length; for (int i = 0; i &lt; length - 1; i&#43;&#43;) { int min = i; for (int j = i &#43; 1; j &lt; length; j&#43;&#43;) { if (list[j] &lt; list[min]) { min = j; } } int tmp = list[min]; list[min] = list[i]; list[i] = tmp; } return list; } } "><meta itemprop="datePublished" content="2022-01-01T00:01:22+07:00" />
+<meta itemprop="dateModified" content="2022-01-01T00:01:22+07:00" />
 <meta itemprop="wordCount" content="118">
 <meta itemprop="keywords" content="dart,oop," />
   

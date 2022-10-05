@@ -3,25 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://andrasatriapratama.com/</loc>
-    <lastmod>2022-09-25T00:12:22+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/tags/dart/</loc>
-    <lastmod>2022-09-25T00:12:22+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/tags/oop/</loc>
-    <lastmod>2022-09-25T00:12:22+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/dart/paradigma-oop-pada-dart/</loc>
-    <lastmod>2022-09-25T00:12:22+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/tags/</loc>
-    <lastmod>2022-09-25T00:12:22+07:00</lastmod>
+    <lastmod>2022-09-24T11:17:16+07:00</lastmod>
   </url><url>
     <loc>https://andrasatriapratama.com/flutter/</loc>
     <lastmod>2022-09-24T11:17:16+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/blog/</loc>
-    <lastmod>2022-09-22T09:55:48+07:00</lastmod>
   </url><url>
     <loc>https://andrasatriapratama.com/tags/bootstrap/</loc>
     <lastmod>2022-09-22T09:55:48+07:00</lastmod>
@@ -35,10 +20,13 @@
     <loc>https://andrasatriapratama.com/tags/html/</loc>
     <lastmod>2022-09-22T09:55:48+07:00</lastmod>
   </url><url>
+    <loc>https://andrasatriapratama.com/tags/</loc>
+    <lastmod>2022-09-22T09:55:48+07:00</lastmod>
+  </url><url>
     <loc>https://andrasatriapratama.com/blog/form-html-dengan-css/</loc>
     <lastmod>2022-09-22T09:55:34+07:00</lastmod>
   </url><url>
-    <loc>https://andrasatriapratama.com/dart/</loc>
+    <loc>https://andrasatriapratama.com/blog/</loc>
     <lastmod>2022-09-20T11:17:16+07:00</lastmod>
   </url><url>
     <loc>https://andrasatriapratama.com/blog/form-html-lengkap/</loc>
@@ -68,24 +56,6 @@
     <loc>https://andrasatriapratama.com/about/</loc>
     <lastmod>2022-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andrasatriapratama.com/dart/class/</loc>
-    <lastmod>2022-09-01T00:11:22+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/dart/property/</loc>
-    <lastmod>2022-09-01T00:10:22+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/dart/method/</loc>
-    <lastmod>2022-09-01T00:09:22+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/dart/constructor/</loc>
-    <lastmod>2022-09-01T00:08:22+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/dart/cascade-notation/</loc>
-    <lastmod>2022-09-01T00:07:22+07:00</lastmod>
-  </url><url>
-    <loc>https://andrasatriapratama.com/dart/inheritance/</loc>
-    <lastmod>2022-09-01T00:06:22+07:00</lastmod>
-  </url><url>
     <loc>https://andrasatriapratama.com/tags/flutter/</loc>
     <lastmod>2022-09-01T00:05:23+07:00</lastmod>
   </url><url>
@@ -95,23 +65,53 @@
     <loc>https://andrasatriapratama.com/tags/widget/</loc>
     <lastmod>2022-09-01T00:05:23+07:00</lastmod>
   </url><url>
-    <loc>https://andrasatriapratama.com/dart/abstract-class/</loc>
-    <lastmod>2022-09-01T00:05:22+07:00</lastmod>
-  </url><url>
     <loc>https://andrasatriapratama.com/flutter/widget/</loc>
     <lastmod>2022-09-01T00:05:22+07:00</lastmod>
   </url><url>
+    <loc>https://andrasatriapratama.com/tags/dart/</loc>
+    <lastmod>2022-01-01T00:12:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/dart/</loc>
+    <lastmod>2022-01-01T00:12:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/tags/oop/</loc>
+    <lastmod>2022-01-01T00:12:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/dart/paradigma-oop-pada-dart/</loc>
+    <lastmod>2022-01-01T00:12:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/dart/class/</loc>
+    <lastmod>2022-01-01T00:11:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/dart/property/</loc>
+    <lastmod>2022-01-01T00:10:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/dart/method/</loc>
+    <lastmod>2022-01-01T00:09:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/dart/constructor/</loc>
+    <lastmod>2022-01-01T00:08:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/dart/cascade-notation/</loc>
+    <lastmod>2022-01-01T00:07:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/dart/inheritance/</loc>
+    <lastmod>2022-01-01T00:06:22+07:00</lastmod>
+  </url><url>
+    <loc>https://andrasatriapratama.com/dart/abstract-class/</loc>
+    <lastmod>2022-01-01T00:05:22+07:00</lastmod>
+  </url><url>
     <loc>https://andrasatriapratama.com/dart/implicit-interface/</loc>
-    <lastmod>2022-09-01T00:04:22+07:00</lastmod>
+    <lastmod>2022-01-01T00:04:22+07:00</lastmod>
   </url><url>
     <loc>https://andrasatriapratama.com/dart/enumerate-types/</loc>
-    <lastmod>2022-09-01T00:03:22+07:00</lastmod>
+    <lastmod>2022-01-01T00:03:22+07:00</lastmod>
   </url><url>
     <loc>https://andrasatriapratama.com/dart/mixins/</loc>
-    <lastmod>2022-09-01T00:02:22+07:00</lastmod>
+    <lastmod>2022-01-01T00:02:22+07:00</lastmod>
   </url><url>
     <loc>https://andrasatriapratama.com/dart/extension-method/</loc>
-    <lastmod>2022-09-01T00:01:22+07:00</lastmod>
+    <lastmod>2022-01-01T00:01:22+07:00</lastmod>
   </url><url>
     <loc>https://andrasatriapratama.com/categories/</loc>
   </url><url>
