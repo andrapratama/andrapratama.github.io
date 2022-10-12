@@ -9,6 +9,17 @@
     <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
     <lastBuildDate>Thu, 01 Sep 2022 00:05:23 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Best Practices Flutter</title>
+      <link>https://andrasatriapratama.com/flutter/best-practices-flutter/</link>
+      <pubDate>Thu, 01 Sep 2022 00:05:23 +0700</pubDate>
+      
+      <guid>https://andrasatriapratama.com/flutter/best-practices-flutter/</guid>
+      <description>SizedBox Placeholder Gunakan Sizebox daripada Container sebagai placehoder widget
+Widget showUI(){ return Column( children: [ _loaded ? const ActualUi() : const SizedBox.shrink(); ], ); } Keuntungan:
+SizedBox punya constructor yang kodenya lebih efisien dibanding Container. SizedBox adalah objek yang lebih ringan dibandingkan Container untuk dipakai. SizedBox.shrink() mengatur width dan height menjadi 0 yang secara default diinisialisasi null. Kita bisa menggunakan SizedBox juga daripada SizedBox.shrink(), tapi menggunakan kata shrink memberikan indikasi yang jelas bahwa widget akan menempati ruang paling sedikit (atau nol) di layar.</description>
+    </item>
+    
+    <item>
       <title>Konsep Dasar Layout</title>
       <link>https://andrasatriapratama.com/flutter/konsep-dasar-layout/</link>
       <pubDate>Thu, 01 Sep 2022 00:05:23 +0700</pubDate>
