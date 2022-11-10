@@ -10,10 +10,10 @@
     <lastBuildDate>Thu, 15 Sep 2022 18:11:42 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/tags/client/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Memahami Konsep Dasar Ini Sebagai Web Developer</title>
-      <link>https://andrasatriapratama.com/blog/memahami-konsep-dasar-ini-sebagai-web-developer/</link>
+      <link>https://andrasatriapratama.com/web/memahami-konsep-dasar-ini-sebagai-web-developer/</link>
       <pubDate>Thu, 15 Sep 2022 18:11:42 +0700</pubDate>
       
-      <guid>https://andrasatriapratama.com/blog/memahami-konsep-dasar-ini-sebagai-web-developer/</guid>
+      <guid>https://andrasatriapratama.com/web/memahami-konsep-dasar-ini-sebagai-web-developer/</guid>
       <description>Untuk mengetahui bagaimana sebuah website bekerja, ada 2 hal yang harus diketahui yaitu Server dan Client.
 Apa yang mereka lakukan? Saat pengguna mengetik alamat web (misal: www.example.com) di browsernya, maka browser tersebut sebagai Client akan melakukan request melalui internet ke Server alamat tersebut. Kemudian Server melakukan proses data yang di-request oleh Client seperti mengambil data, menyimpan data, memperbarui data dan bahkan menghapus data. Dan mengirimkannya kembali kepada Client berupa teks, gambar, video dan sebagainya yang ditampilkan oleh browser.</description>
     </item>

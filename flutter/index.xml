@@ -8,37 +8,5 @@
     <language>en</language>
     <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
     <lastBuildDate>Sat, 24 Sep 2022 11:17:16 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/flutter/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Best Practices Flutter</title>
-      <link>https://andrasatriapratama.com/flutter/best-practices-flutter/</link>
-      <pubDate>Thu, 01 Sep 2022 00:05:23 +0700</pubDate>
-      
-      <guid>https://andrasatriapratama.com/flutter/best-practices-flutter/</guid>
-      <description>SizedBox Placeholder Gunakan Sizebox daripada Container sebagai placehoder widget
-Widget showUI(){ return Column( children: [ _loaded ? const ActualUi() : const SizedBox.shrink(); ], ); } Keuntungan:
-SizedBox punya constructor yang kodenya lebih efisien dibanding Container. SizedBox adalah objek yang lebih ringan dibandingkan Container untuk dipakai. SizedBox.shrink() mengatur width dan height menjadi 0 yang secara default diinisialisasi null. Kita bisa menggunakan SizedBox juga daripada SizedBox.shrink(), tapi menggunakan kata shrink memberikan indikasi yang jelas bahwa widget akan menempati ruang paling sedikit (atau nol) di layar.</description>
-    </item>
-    
-    <item>
-      <title>Konsep Dasar Layout</title>
-      <link>https://andrasatriapratama.com/flutter/konsep-dasar-layout/</link>
-      <pubDate>Thu, 01 Sep 2022 00:05:23 +0700</pubDate>
-      
-      <guid>https://andrasatriapratama.com/flutter/konsep-dasar-layout/</guid>
-      <description>UI pada Flutter dibangun dalam kode, bukan file XML atau sejenisnya. UI-nya disusun sebagai blok bangunan dasar yang disebut Widget (ada widget Text, Gambar, Baris, Kolom, Container dan sebagainya). Widget adalah objek yang tidak dapat diubah yang menjelaskan bagian tertentu dari UI. Kita bisa enggabungkan widget yang ada untuk membuat widget yang lebih canggih.
-Row dan Column Row dan Column adalah kelas yang memuat dan menata widget. Widget di dalam Row atau Column disebut child, dan Row dan Column disebut sebagai parent.</description>
-    </item>
-    
-    <item>
-      <title>Widget</title>
-      <link>https://andrasatriapratama.com/flutter/widget/</link>
-      <pubDate>Thu, 01 Sep 2022 00:05:22 +0700</pubDate>
-      
-      <guid>https://andrasatriapratama.com/flutter/widget/</guid>
-      <description>Widget pada Flutter adalah komponen-komponen yang tampil di layar seperti Text, Button, Image dan sebagainya yang bisa dilihat, dan juga komponen-komponen yang mengatur seperti apa Widget tadi (Text, Button, Image dan sebagainya yang bisa dilihat) ditampilkan seperti Row, Column, Stack, Container.
-Widget-widget tersebut bisa dikonfigurasi dan diberi status (state). Ketika ada perubahan konfigurasi dan status, widget akan dibuat ulang sesuai dengan konfigurasi dan statenya yang baru
-Widget Dasar Text memungkinkan untuk membuat serangkaian teks dengan gaya (style) yang kita inginkan.</description>
-    </item>
-    
   </channel>
 </rss>
