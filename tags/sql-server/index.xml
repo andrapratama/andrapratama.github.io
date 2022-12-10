@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Andra Satria Pratama</title>
-    <link>https://andrasatriapratama.com/blog/</link>
-    <description>Recent content in Blog on Andra Satria Pratama</description>
+    <title>sql server on Andra Satria Pratama</title>
+    <link>https://andrasatriapratama.com/tags/sql-server/</link>
+    <description>Recent content in sql server on Andra Satria Pratama</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 20 Sep 2022 11:17:16 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Dec 2022 14:05:18 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/tags/sql-server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sql Server Notes</title>
       <link>https://andrasatriapratama.com/blog/sql-server-notes/</link>
