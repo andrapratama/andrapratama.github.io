@@ -9,12 +9,12 @@
     <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
     <lastBuildDate>Sat, 10 Dec 2022 14:05:18 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/tags/sql-server/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sql Server Notes</title>
+      <title>My Sql Server Notes</title>
       <link>https://andrasatriapratama.com/blog/sql-server-notes/</link>
       <pubDate>Sat, 10 Dec 2022 14:05:18 +0700</pubDate>
       
       <guid>https://andrasatriapratama.com/blog/sql-server-notes/</guid>
-      <description>Rename Column EXEC sp_rename &amp;#39;dbo.table_name.old_column&amp;#39;, &amp;#39;new_colum&amp;#39;, &amp;#39;COLUMN&amp;#39;; </description>
+      <description>Rename Column EXEC sp_rename &amp;#39;dbo.table_name.old_column&amp;#39;, &amp;#39;new_colum&amp;#39;, &amp;#39;COLUMN&amp;#39;; Formatting Money Valueq REPLACE(CONVERT(VARCHAR,money,0), &amp;#39;.&amp;#39;,&amp;#39;,&amp;#39;) </description>
     </item>
     
   </channel>

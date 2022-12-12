@@ -9,12 +9,12 @@
     <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
     <lastBuildDate>Sat, 10 Dec 2022 14:05:18 +0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sql Server Notes</title>
+      <title>My Sql Server Notes</title>
       <link>https://andrasatriapratama.com/blog/sql-server-notes/</link>
       <pubDate>Sat, 10 Dec 2022 14:05:18 +0700</pubDate>
       
       <guid>https://andrasatriapratama.com/blog/sql-server-notes/</guid>
-      <description>Rename Column EXEC sp_rename &amp;#39;dbo.table_name.old_column&amp;#39;, &amp;#39;new_colum&amp;#39;, &amp;#39;COLUMN&amp;#39;; </description>
+      <description>Rename Column EXEC sp_rename &amp;#39;dbo.table_name.old_column&amp;#39;, &amp;#39;new_colum&amp;#39;, &amp;#39;COLUMN&amp;#39;; Formatting Money Valueq REPLACE(CONVERT(VARCHAR,money,0), &amp;#39;.&amp;#39;,&amp;#39;,&amp;#39;) </description>
     </item>
     
     <item>
@@ -63,7 +63,7 @@ Apa yang mereka lakukan? Saat pengguna mengetik alamat web (misal: www.example.c
       <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://andrasatriapratama.com/about/</guid>
-      <description>I&amp;rsquo;ve tried many times to build a personal website. But always look for what form and how this website is built. Until one day someone really inspired me. So I decided to do this from now on.</description>
+      <description>I&amp;rsquo;ve tried many times to build a personal website. But always look for what form and how this website is built. Until one day someone really inspired me. So I decided to do this from now on. This is my blog website for sharing and noting my programming career life. Sharing some tricks what I&amp;rsquo;ve done to my project.</description>
     </item>
     
     <item>
