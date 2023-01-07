@@ -15,7 +15,7 @@
       
       <guid>https://andrasatriapratama.com/blog/sql-server-notes/</guid>
       <description>I tried to summarize some of the techniques that I use in my development of systems that I do in my work. Some of them may be repetitive work, so I don&amp;rsquo;t forget to write them down
-Rename Column EXEC sp_rename &amp;#39;dbo.table_name.old_column&amp;#39;, &amp;#39;new_colum&amp;#39;, &amp;#39;COLUMN&amp;#39;; Formatting Money Value REPLACE(CONVERT(VARCHAR,money,0), &amp;#39;.&amp;#39;,&amp;#39;,&amp;#39;) Limit and Offset SELECT [id] ,[name] FROM [log] ORDER BY [id] ,[name] OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY; </description>
+Rename Column EXEC sp_rename &amp;#39;dbo.table_name.old_column&amp;#39;, &amp;#39;new_colum&amp;#39;, &amp;#39;COLUMN&amp;#39;; Formatting Money Value REPLACE(CONVERT(VARCHAR,money,0), &amp;#39;.&amp;#39;,&amp;#39;,&amp;#39;) Limit and Offset SELECT [id] ,[name] FROM [log] ORDER BY [id] ,[name] OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY; Create Index Table CREATE INDEX [idx_log] ON [log] ([id]); </description>
     </item>
     
   </channel>
