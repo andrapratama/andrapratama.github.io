@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>dokumentasi - Tag - Andra Satria Pratama</title>
+        <link>https://andrasatriapratama.com/tags/dokumentasi/</link>
+        <description>dokumentasi - Tag - Andra Satria Pratama</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Apr 2023 16:56:32 &#43;0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/tags/dokumentasi/" rel="self" type="application/rss+xml" /><item>
+    <title>Bagaimana Website Ini Dibuat</title>
+    <link>https://andrasatriapratama.com/posts/how-this-website-made/</link>
+    <pubDate>Tue, 25 Apr 2023 16:56:32 &#43;0700</pubDate>
+    <author>Author</author>
+    <guid>https://andrasatriapratama.com/posts/how-this-website-made/</guid>
+    <description><![CDATA[Pengenalan Saya membuat website ini sebagai dokumentasi atas apa yang saya kerjakan selama menjadi programmer. Mungkin tidak dalam waktu dekat apa yang saya pelajari dan lakukan di pekerjaan akan terangkum. Tapi perlahan-lahan saya akan mulai mendokumentasikannya, entah itu untuk pribadi, sharing dengan teman kerja atau pun orang umum.
+Peralatan Saya menggunakan Hugo, yaitu sebuah generator web statis yang dibuat menggunakan bahasa Go.
+Tutorial ]]></description>
+</item>
+</channel>
+</rss>

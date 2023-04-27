@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Andra Satria Pratama</title>
-        <link>https://andrasatriapratama.com/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Apr 2023 16:56:32 &#43;0700</lastBuildDate>
-            <atom:link href="https://andrasatriapratama.com/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>website - Tag - Andra Satria Pratama</title>
+        <link>https://andrasatriapratama.com/tags/website/</link>
+        <description>website - Tag - Andra Satria Pratama</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Apr 2023 16:56:32 &#43;0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/tags/website/" rel="self" type="application/rss+xml" /><item>
     <title>Bagaimana Website Ini Dibuat</title>
     <link>https://andrasatriapratama.com/posts/how-this-website-made/</link>
     <pubDate>Tue, 25 Apr 2023 16:56:32 &#43;0700</pubDate>
