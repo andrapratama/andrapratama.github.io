@@ -14,13 +14,5 @@
 2 Peralatan Saya menggunakan Hugo, yaitu sebuah generator web statis yang dibuat menggunakan bahasa Go.
 3 Tutorial 3.1 Membuat Direktori 1 hugo new site my_website 3.]]></description>
 </item>
-<item>
-    <title>Tutorialsw</title>
-    <link>https://andrasatriapratama.com/tutorials2/</link>
-    <pubDate>Tue, 25 Apr 2023 16:56:32 &#43;0700</pubDate>
-    <author>Andra</author>
-    <guid>https://andrasatriapratama.com/tutorials2/</guid>
-    <description><![CDATA[1 Pengenalan Saya membuat website ini sebagai dokumentasi atas apa yang saya kerjakan selama menjadi programmer. Mungkin tidak dalam waktu dekat apa yang saya pelajari dan lakukan di pekerjaan akan terangkum. Tapi perlahan-lahan saya akan mulai mendokumentasikannya, entah itu untuk pribadi, sharing dengan teman kerja atau pun orang umum.]]></description>
-</item>
 </channel>
 </rss>
