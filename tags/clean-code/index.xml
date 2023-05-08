@@ -4,22 +4,21 @@
         <link>https://andrasatriapratama.com/tags/clean-code/</link>
         <description>clean code - Tag - Andra Satria Pratama</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>andrasatriapratama@gmail.com (Andra Satria Pratama)</managingEditor>
-            <webMaster>andrasatriapratama@gmail.com (Andra Satria Pratama)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 May 2023 14:43:15 &#43;0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/tags/clean-code/" rel="self" type="application/rss+xml" /><item>
-    <title>Apa Itu Clean Code</title>
-    <link>https://andrasatriapratama.com/tutorials/apa-itu-clean-code/</link>
+            <webMaster>andrasatriapratama@gmail.com (Andra Satria Pratama)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 08 May 2023 13:20:38 &#43;0700</lastBuildDate><atom:link href="https://andrasatriapratama.com/tags/clean-code/" rel="self" type="application/rss+xml" /><item>
+    <title>Apa Itu Clean Code?</title>
+    <link>https://andrasatriapratama.com/apa-itu-clean-code/</link>
     <pubDate>Sat, 06 May 2023 14:43:15 &#43;0700</pubDate>
     <author>Andra</author>
-    <guid>https://andrasatriapratama.com/tutorials/apa-itu-clean-code/</guid>
+    <guid>https://andrasatriapratama.com/apa-itu-clean-code/</guid>
     <description><![CDATA[Apa itu Clean Code? Kode yang bisa dibaca dan dimengerti Harus bisa dibaca dan memiliki arti Mengurangi beban kognitif Harus ringkas dan tepat Harus menghindari nama yang tidak intuitif, sarang yang rumit, blok kode yang besar Harus mengikuti praktik dan pola terbaik umum Harus menyenangkan untuk menulis dan memelihara Kembali]]></description>
 </item>
 <item>
-    <title>Clean Code</title>
-    <link>https://andrasatriapratama.com/tutorials/clean-code/</link>
-    <pubDate>Sat, 06 May 2023 14:37:41 &#43;0700</pubDate>
+    <title>Masalah Yang Berulang</title>
+    <link>https://andrasatriapratama.com/masalah-yang-berulang/</link>
+    <pubDate>Mon, 08 May 2023 13:20:38 &#43;0700</pubDate>
     <author>Andra</author>
-    <guid>https://andrasatriapratama.com/tutorials/clean-code/</guid>
-    <description><![CDATA[Daftar
-Apa itu Clean Code? ]]></description>
+    <guid>https://andrasatriapratama.com/masalah-yang-berulang/</guid>
+    <description><![CDATA[Masalah Yang Berulang]]></description>
 </item>
 </channel>
 </rss>
