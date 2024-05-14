@@ -13,7 +13,12 @@
 </head>
 
 <body>
+    <audio autoplay>
+        <source src="backsound.mp3" type="audio/mp3">
+        Browser kamu tidak mendukung tag audio ini.
+    </audio>
     <div class="cover">
+        <img src="wedding-1.jpeg" alt="cover" />
         <span class="spacer10"></span>
         <span class="title animate__animated animate__fadeInDown">Undangan Pernikahan</span>
         <span class="spacer10"></span>
@@ -25,11 +30,35 @@
         <span class="spacer2"></span>
         <a href="#top" class="open-invitation animate__animated animate__fadeInUpBig">Lihat
             Undangan</a>
-
     </div>
 
     <div class="content" id="top">
+        <img src="wedding-2.jpeg" alt="cover" />
         <span id="demo" data-aos="flip-down"></span>
+        <span class="spacer2"></span>
+        <span data-aos="flip-down">Sabtu, 22 Juni 2024</span>
+        <span class="spacer20"></span>
+        <div class="surah" data-aos="fade-right">
+            Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasangan untukmu dari (jenis)
+            dirimu sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih sayang.
+            Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang
+            berpikir.
+        </div>
+        <span class="spacer10"></span>
+        <p class="surah-title" data-aos="fade-left">QS. Ar Rum: Ayat 21 </p>
+    </div>
+
+    <div class="content2">
+        <img src="wedding-3.jpeg" alt="cover" />
+        <h1 data-aos="fade-right">AKAD NIKAH</h1>
+        <span data-aos="fade-right">Jumat, 21 Juni 2024</span>
+        <span data-aos="fade-right">10:10 WIB</span>
+        <span data-aos="fade-right">Rumah Mempelai Wanita</span>
+        <span class="spacer10"></span>
+        <h1 data-aos="fade-left">RESEPSI</h1>
+        <span data-aos="fade-left">Sabtu, 22 Juni 2024</span>
+        <span data-aos="fade-left">10:10 WIB</span>
+        <span data-aos="fade-left">Rumah Mempelai Wanita</span>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -56,8 +85,8 @@
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
             // Output the result in an element with id="demo"
-            document.getElementById("demo").innerHTML = "<span class='days'>" + days + " hari </span><span class='hours'>" + hours + " jam</span><span class='minutes'>"
-                + minutes + " menit</span><span class='seconds'>" + seconds + " detik</span>";
+            document.getElementById("demo").innerHTML = days + " <span class='days'>hari</span> | " + hours + " <span class='hours'>jam</span> | "
+                + minutes + " <span class='minutes'>menit</span> | " + seconds + " <span class='seconds'>detik</span>";
 
             // If the count down is over, write some text 
             if (distance < 0) {
