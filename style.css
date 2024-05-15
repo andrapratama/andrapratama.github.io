@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 :root {
     --primary: #8f7e56;
@@ -16,31 +17,12 @@ html {
 }
 
 body {
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #f4f4f4;
     color: var(--primary);
-}
-
-.cover {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
 }
 
 .spacer2 {
@@ -54,6 +36,62 @@ body {
 .spacer20 {
     height: 20vh;
 }
+
+/*
+===========================
+Cover
+===========================
+*/
+.cover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border: 10px solid var(--primary);
+}
+
+.flowes-cover-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV"; */
+}
+
+.flowes-cover-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1); */
+}
+
+.flowes-cover-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.flowes-cover-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH"; */
+}
+
 
 .title {
 
@@ -81,6 +119,120 @@ body {
     border-radius: 30px;
 }
 
+/*
+===========================
+Logo Name
+===========================
+*/
+.logo-name {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border: 10px solid var(--primary);
+}
+
+.logo-name-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid #73AD21; */
+}
+
+.name-letter {
+    font-size: 8em;
+    font-weight: 800;
+}
+
+.name-letter-m {
+    position: absolute;
+    /* top: 10px; */
+    /* left: 70px; */
+    /* width: 200px; */
+    /* height: 200px; */
+    /* border: 3px solid #73AD21; */
+}
+
+.name-letter-a {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    /* width: 200px; */
+    /* height: 200px; */
+    /* border: 3px solid #73AD21; */
+}
+
+/*
+===========================
+Surah-Salam
+===========================
+*/
+/* .surah-salam {
+    background-color: #f2eee6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border: 10px solid var(--primary);
+} */
+
+.surah {
+    font-size: 0.8em;
+    width: 80%;
+    text-align: center;
+    line-height: 1.5em;
+    height: auto;
+}
+
+/*
+===========================
+Profile
+===========================
+*/
+.profile {
+    position: relative;
+    /* background-color: #f3f1ef; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border: 10px solid var(--primary);
+}
+
+.profile-fullname {
+    font-family: "Great Vibes", sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.profile-text {
+    font-size: 0.8em;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5em;
+    height: auto;
+}
+
+/*
+===========================
+Date Detail
+===========================
+*/
+.date-detail {
+    position: relative;
+    /* background-color: #f3f1ef; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border: 10px solid var(--primary);
+}
+
 .days,
 .hours,
 .minutes,
@@ -91,33 +243,57 @@ body {
     font-size: 0.7em;
 }
 
-.surah {
-    font-size: 0.8em;
-    width: 90%;
-    text-align: center;
-    line-height: 1.5em;
-    height: auto;
+.date-detail-title {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 2em;
+    font-weight: 800;
 }
 
-/* .surah-title {
-    font-family: "Pinyon Script", sans-serif;
+#demo {
+    font-size: 1.2em;
+}
+
+/*
+===========================
+Event
+===========================
+*/
+/* .event { */
+/* background-color: #eef0f9; */
+/* display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border: 10px solid var(--primary);
 } */
 
-.content2 {
+/*
+===========================
+Gift
+===========================
+*/
+.gift {
+    /* background-color: #dedfe1; */
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100vh;
-    align-items: center;
-    justify-content: center;
+    border: 10px solid var(--primary);
 }
 
-img {
-    pointer-events: none;
-    position: absolute;
+/*
+===========================
+End
+===========================
+*/
+.end {
+    /* background-color: #eeeff5; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.3;
+    height: 100vh;
+    border: 10px solid var(--primary);
 }
