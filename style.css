@@ -54,58 +54,46 @@ Cover
     width: 100%;
     height: 100vh;
     border: 10px solid var(--primary);
+    justify-content: center;
 }
 
 .flowes-cover-top-left {
+    width: 30%;
     position: absolute;
     top: 0;
     left: 0;
-    /* -moz-transform: scaleY(-1);
-    -o-transform: scaleY(-1);
-    -webkit-transform: scaleY(-1);
-    transform: scaleY(-1);
-    filter: FlipV;
-    -ms-filter: "FlipV"; */
 }
 
 .flowes-cover-top-right {
+    width: 30%;
     position: absolute;
     top: 0;
     right: 0;
-    /* -moz-transform: scale(-1, -1);
-    -o-transform: scale(-1, -1);
-    -webkit-transform: scale(-1, -1);
-    transform: scale(-1, -1); */
 }
 
 .flowes-cover-bottom-left {
+    width: 30%;
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
 .flowes-cover-bottom-right {
+    width: 30%;
     position: absolute;
     bottom: 0;
     right: 0;
-    /* -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH"; */
 }
 
 
 .title {
-
     font-size: 1em;
     font-style: italic;
 }
 
 .name {
     font-family: "Pinyon Script", sans-serif;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 800;
 }
 
@@ -136,6 +124,7 @@ Logo Name
     width: 100%;
     height: 100vh;
     border: 10px solid var(--primary);
+    justify-content: center;
 }
 
 .logo-name-container {
@@ -205,6 +194,11 @@ Profile
     width: 100%;
     height: 100vh;
     border: 10px solid var(--primary);
+    justify-content: center;
+}
+
+.profile-opener {
+    font-size: 1.5em;
 }
 
 .profile-fullname {
@@ -235,6 +229,7 @@ Date Detail
     width: 100%;
     height: 100vh;
     border: 10px solid var(--primary);
+    justify-content: center;
 }
 
 .days,
