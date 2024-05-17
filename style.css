@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Style+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 :root {
     --primary: #8f7e56;
@@ -13,12 +12,16 @@
 }
 
 html {
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
     max-width: 100%;
     overflow-x: hidden;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     max-width: 100%;
     overflow-x: hidden;
     display: flex;
@@ -57,6 +60,17 @@ Cover
     justify-content: center;
 }
 
+.cover::after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url(bg-ring.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
 .flowes-cover-top-left {
     width: 30%;
     position: absolute;
@@ -85,8 +99,21 @@ Cover
     right: 0;
 }
 
+.cover-header {
+    position: absolute;
+    top: 10%;
+}
+
+.cover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
 .title {
+
     font-size: 1em;
     font-style: italic;
 }
@@ -97,11 +124,21 @@ Cover
     font-weight: 800;
 }
 
+.cover-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10%;
+}
+
 .to-invitation {
     font-size: 0.8em;
 }
 
 .open-invitation {
+
     font-size: 0.8em;
     font-style: italic;
     text-decoration: none;
@@ -110,6 +147,8 @@ Cover
     background-color: var(--primary);
     border-radius: 30px;
 }
+
+
 
 /*
 ===========================
@@ -125,6 +164,17 @@ Logo Name
     height: 100vh;
     border: 10px solid var(--primary);
     justify-content: center;
+}
+
+.logo-name::after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url(bg-ring.png);
+    background-position: 50%;
+    background-size: cover;
 }
 
 .logo-name-container {
@@ -197,12 +247,23 @@ Profile
     justify-content: center;
 }
 
+.profile::after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url(bg-ring.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
 .profile-opener {
     font-size: 1.5em;
 }
 
 .profile-fullname {
-    font-family: "Great Vibes", sans-serif;
+    font-family: "Pinyon Script", sans-serif;
     font-size: 2em;
     font-weight: 800;
 }
@@ -232,6 +293,17 @@ Date Detail
     justify-content: center;
 }
 
+.date-detail::after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url(bg-ring.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
 .days,
 .hours,
 .minutes,
@@ -243,7 +315,7 @@ Date Detail
 }
 
 .date-detail-title {
-    font-family: 'Great Vibes', sans-serif;
+    font-family: 'Pinyon Script', sans-serif;
     font-size: 2em;
     font-weight: 800;
 }
@@ -280,6 +352,17 @@ Gift
     width: 100%;
     height: 100vh;
     border: 10px solid var(--primary);
+}
+
+.gift::after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url(bg-ring.png);
+    background-position: 50%;
+    background-size: cover;
 }
 
 /*
