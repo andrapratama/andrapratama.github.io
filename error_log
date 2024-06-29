@@ -1,0 +1,46 @@
+[12-Jun-2024 19:42:54 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:43:26 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:43:27 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:43:28 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:43:28 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:43:29 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:43:29 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:43:29 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:45:06 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:45:07 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:45:08 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:45:08 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:45:08 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:45:08 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:45:08 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:52:27 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:52:42 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'andr3734_andra'@'localhost' (using password: YES) in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:06 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:08 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:08 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:08 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:08 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:09 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:09 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:09 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:09 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:09 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:10 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:16 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 19:53:17 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'andr3734_andra'@'localhost' to database 'andr3734_undangan' in /home/andr3734/public_html/index.php on line 9
+[12-Jun-2024 23:11:52 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/andr3734/public_html/index.php on line 30
+[12-Jun-2024 23:11:52 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/andr3734/public_html/index.php on line 32
+[12-Jun-2024 23:12:17 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/andr3734/public_html/index.php on line 30
+[12-Jun-2024 23:12:17 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/andr3734/public_html/index.php on line 32
+[12-Jun-2024 23:12:19 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/andr3734/public_html/index.php on line 30
+[12-Jun-2024 23:12:19 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/andr3734/public_html/index.php on line 32
+[12-Jun-2024 23:12:20 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/andr3734/public_html/index.php on line 30
+[12-Jun-2024 23:12:20 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/andr3734/public_html/index.php on line 32
+[12-Jun-2024 23:12:21 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/andr3734/public_html/index.php on line 30
+[12-Jun-2024 23:12:21 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/andr3734/public_html/index.php on line 32
+[12-Jun-2024 23:13:06 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/andr3734/public_html/index.php on line 30
+[12-Jun-2024 23:13:06 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/andr3734/public_html/index.php on line 32
+[12-Jun-2024 23:13:07 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/andr3734/public_html/index.php on line 30
+[12-Jun-2024 23:13:07 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/andr3734/public_html/index.php on line 32
+[12-Jun-2024 23:13:08 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/andr3734/public_html/index.php on line 30
+[12-Jun-2024 23:13:08 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/andr3734/public_html/index.php on line 32
