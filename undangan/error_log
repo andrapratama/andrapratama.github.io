@@ -1,4 +1,0 @@
-[13-Jun-2024 16:40:02 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/andr3734/public_html/undangan/index.php on line 215
-[13-Jun-2024 16:40:56 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/andr3734/public_html/undangan/index.php on line 298
-[13-Jun-2024 16:40:58 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/andr3734/public_html/undangan/index.php on line 298
-[13-Jun-2024 16:40:59 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/andr3734/public_html/undangan/index.php on line 298
